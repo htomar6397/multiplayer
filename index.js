@@ -5,7 +5,7 @@ const http = require("http").Server(app);
 const PORT = 4000;
 const socketIO = require("socket.io")(http, {
   cors: {
-    origin: "http://tic-tac-toe-qwerty.000webhostapp.com",
+    origin: "https://tic-tac-toe-vaum.onrender.com",
   },
 });
 
